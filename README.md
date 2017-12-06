@@ -10,5 +10,5 @@
 ## Validator
 
 | Method | Description |
-| :---: | --- |
-|  |  |
+| --- | --- |
+| isInt(str, [, options]) | check if the string is an integer. |
