@@ -16,4 +16,4 @@
 
 ## todo
 
-* [ ] isFloat, decimal digits
+* [ ] isFloat, decimal digits(0.10: 2?1)
