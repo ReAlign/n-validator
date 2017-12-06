@@ -1,3 +1,14 @@
+/**
+ *  isInt(str, opt)
+ *
+ *  opt: {
+ *      allow_leading_zeroes
+ *      min
+ *      max
+ *      lt
+ *      gt
+ *  }
+ */
 module.exports = ((_) => {
     _.isInt = (str = '', options) => {
         options = options || {};
