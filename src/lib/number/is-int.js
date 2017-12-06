@@ -18,15 +18,6 @@ module.exports = ((_) => {
                             ? _.r.int
                             : _.r.intLeadingZeroes;
 
-        const minCheckPassed = !options.hasOwnProperty('min') || str >= options.min;
-        const maxCheckPassed = !options.hasOwnProperty('max') || str <= options.max;
-        const ltCheckPassed = !options.hasOwnProperty('lt') || str < options.lt;
-        const gtCheckPassed = !options.hasOwnProperty('gt') || str > options.gt;
-
-        return regex.test(str)
-                && minCheckPassed
-                && maxCheckPassed
-                && ltCheckPassed
-                && gtCheckPassed;
+        return regex.test(str) && _._numberBaseRules(str, options);
     };
 });

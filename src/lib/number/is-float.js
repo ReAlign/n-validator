@@ -16,14 +16,6 @@ module.exports = ((_) => {
             return false;
         }
 
-        return _.r.float.test(str)
-                && (!options.hasOwnProperty('min')
-                    || str >= options.min)
-                && (!options.hasOwnProperty('max')
-                    || str <= options.max)
-                && (!options.hasOwnProperty('lt')
-                    || str < options.lt)
-                && (!options.hasOwnProperty('gt')
-                    || str > options.gt);
+        return _.r.float.test(str) && _._numberBaseRules(str, options);
     };
 });
