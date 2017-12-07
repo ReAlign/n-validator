@@ -1,8 +1,8 @@
 # n-validator
 [![codecov][codecov-image]][codecov-url]
 
-[codecov-url]: https://codecov.io/gh/ReAlign/LocalStorage
-[codecov-image]: https://codecov.io/gh/ReAlign/LocalStorage/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/ReAlign/n-validator
+[codecov-image]: https://codecov.io/gh/ReAlign/n-validator/branch/master/graph/badge.svg
 
 #### 前提：目前前端 `mock`， 只做了 `url` & `method` 校验。
 
