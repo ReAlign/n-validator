@@ -10,7 +10,8 @@
     "clean": "gulp clean",
     "packageinstall": "npm install --registry=https://registry.npm.taobao.org",
     "lint": "eslint .",
-    "test": "jest && codecov"
+    "test": "jest && codecov",
+    "jests": "jest __test__/date/date-str/date-str.test.js"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
