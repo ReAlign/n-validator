@@ -63,3 +63,19 @@ test('normalFloatNumberGt2', function() {
 test('normalFloatNumberGt3', function() {
     expect(_.isFloat(12.1, {gt: 13})).toBe(false);
 });
+
+test('emptyFloatNumber1', function() {
+    expect(_.isFloat('')).toBe(false);
+});
+
+test('emptyFloatNumber2', function() {
+    expect(_.isFloat('.')).toBe(false);
+});
+
+test('emptyFloatNumber3', function() {
+    expect(_.isFloat('-')).toBe(false);
+});
+
+test('emptyFloatNumber4', function() {
+    expect(_.isFloat('+')).toBe(false);
+});
