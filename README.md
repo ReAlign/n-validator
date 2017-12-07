@@ -17,6 +17,7 @@
 | --- | --- |
 | isInt(str, [, options]) | check if the string is an integer. |
 | isFloat(str, [, options]) | check if the string is a float. |
+| isDateStr(str, [, options]) |  |
 
 ## todo
 
