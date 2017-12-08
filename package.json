@@ -11,7 +11,7 @@
     "packageinstall": "npm install --registry=https://registry.npm.taobao.org",
     "lint": "eslint .",
     "test": "jest && codecov",
-    "jests": "jest __test__/date/date-str/date-str.test.js"
+    "jests": "jest __test__/boolean/boolean.test.js"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
