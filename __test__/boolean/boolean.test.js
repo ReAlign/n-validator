@@ -23,3 +23,7 @@ test('normalBoolean1Num1', function() {
 test('normalBoolean1Num2', function() {
     expect(_.isBoolean(1, {strictMode: true})).toBe(false);
 });
+
+test('normalBooleanObj', function() {
+    expect(_.isBoolean({name: 'true'})).toBe(false);
+});
