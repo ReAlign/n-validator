@@ -24,3 +24,4 @@
 
 * [ ] isFloat, decimal digits(0.10: 2?1)
 * [ ] number strictMode
+* [ ] date stamp
