@@ -1,23 +1,23 @@
 /**
- *  isBoolean(str)
+ *  isBoolean(val)
  */
 module.exports = ((_) => {
-    _.isBoolean = (str = '', options) => {
+    _.isBoolean = (val = '', options) => {
         options = options || {};
 
         let _strictMode = options.hasOwnProperty('strictMode')
                             && options.strictMode;
 
-        if(_.typeOf(str) == 'boolean') {
+        if(_.typeOf(val) == 'boolean') {
             return true;
         }
 
-        if(_.typeOf(str) == 'number') {
-            return (str === 1 || str === 0)
+        if(_.typeOf(val) == 'number') {
+            return (val === 1 || val === 0)
                     ? !_strictMode
                     : false;
         }
 
-        return (_.enum.boolean.indexOf(str) >= 0) && !_strictMode;
+        return (_.enum.boolean.indexOf(val) >= 0) && !_strictMode;
     };
 });
