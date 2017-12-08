@@ -16,6 +16,10 @@ test('normalBooleanFalseStr', function() {
     expect(_.isBoolean('false')).toBe(true);
 });
 
-test('normalBoolean1Num', function() {
+test('normalBoolean1Num1', function() {
     expect(_.isBoolean(1)).toBe(true);
+});
+
+test('normalBoolean1Num2', function() {
+    expect(_.isBoolean(1, {strictMode: true})).toBe(false);
 });
