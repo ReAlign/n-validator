@@ -18,7 +18,7 @@
 | isInt(str, [, options]) | check if the string is an integer. |
 | isFloat(str, [, options]) | check if the string is a float. |
 | isDateStr(str, [, options]) | check if the string is a date. |
-| isBoolean(str, [, options]) | check if the string is a boolean. |
+| isBoolean(str, [, options]) | check if the variable is a boolean. |
 
 ## todo
 
