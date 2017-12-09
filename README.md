@@ -19,6 +19,7 @@
 | isFloat(str, [, options]) | check if the string is a float. |
 | isDateStr(str, [, options]) | check if the string is a date. |
 | isBoolean(val, [, options]) | check if the variable is a boolean. |
+| isLength |  |
 
 ## todo
 
