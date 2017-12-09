@@ -24,6 +24,6 @@ require('./src/lib/date/is-date-str')(_v);
 require('./src/lib/boolean/is-boolean')(_v);
 
 // dataURI
-require('./src/lib/uri/is-data-uri')(_v);
+// require('./src/lib/uri/is-data-uri')(_v);
 
 module.exports = _v;
