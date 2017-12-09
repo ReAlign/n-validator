@@ -8,9 +8,7 @@
  *  }
  */
 module.exports = ((_) => {
-    _.isDateStamp = (str = '', options) => {
-        options = options || {};
-
+    _.isDateStamp = (str = '', options = {}) => {
         const regex = options.hasOwnProperty('time')
                         && options.time
                             ? _.r.dateTime(options.separator, options.strictMode)

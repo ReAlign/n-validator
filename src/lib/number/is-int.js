@@ -10,9 +10,7 @@
  *  }
  */
 module.exports = ((_) => {
-    _.isInt = (str = '', options) => {
-        options = options || {};
-
+    _.isInt = (str = '', options = {}) => {
         const regex = options.hasOwnProperty('allow_leading_zeroes')
                         && !options.allow_leading_zeroes
                             ? _.r.int

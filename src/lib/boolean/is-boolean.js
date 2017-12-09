@@ -2,9 +2,7 @@
  *  isBoolean(val)
  */
 module.exports = ((_) => {
-    _.isBoolean = (val = '', options) => {
-        options = options || {};
-
+    _.isBoolean = (val = '', options = {}) => {
         let _strictMode = options.hasOwnProperty('strictMode')
                             && options.strictMode;
 

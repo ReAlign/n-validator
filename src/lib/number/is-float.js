@@ -9,9 +9,7 @@
  *  }
  */
 module.exports = ((_) => {
-    _.isFloat = (str = '', options) => {
-        options = options || {};
-
+    _.isFloat = (str = '', options = {}) => {
         if (str === '' || str === '.' || str === '-' || str === '+') {
             return false;
         }
