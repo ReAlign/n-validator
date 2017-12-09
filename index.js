@@ -12,6 +12,12 @@ require('./src/lib/base-enum/index')(_v);
 // base typeof
 require('./src/lib/base-type/type-of')(_v);
 
+// base object
+require('./src/lib/base-object/object-compare')(_v);
+
+// base function
+require('./src/lib/string/is-length')(_v);
+
 // number
 require('./src/lib/number/base-rule')(_v);
 require('./src/lib/number/is-int')(_v);
