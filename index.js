@@ -5,14 +5,8 @@ let _v = {};
 
 // base
 require('./src/lib/base-regexp/index')(_v);
-
-// base enum
 require('./src/lib/base-enum/index')(_v);
-
-// base typeof
 require('./src/lib/base-type/type-of')(_v);
-
-// base object
 require('./src/lib/base-object/object-compare')(_v);
 
 // base function
