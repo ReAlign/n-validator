@@ -10,6 +10,7 @@ require('./src/lib/base-type/type-of')(_v);
 require('./src/lib/base-object/object-compare')(_v);
 
 // base function
+require('./src/lib/all/is-required')(_v);
 require('./src/lib/string/is-length')(_v);
 
 // number
