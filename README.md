@@ -17,7 +17,8 @@
 | --- | --- |
 | isInt(str, [, options]) | check if the string is an integer. |
 | isFloat(str, [, options]) | check if the string is a float. |
-| isDateStr(str, [, options]) | check if the string is a date. |
+| isDate(str, [, options]) | check if the string is a date. |
+| isDateTime(str, [, options]) | check if the string is a date time. |
 | isBoolean(val, [, options]) | check if the variable is a boolean. |
 | isLength(str, [, options]) | check if the string's length falls in a range. [min, max] |
 | isRequired(str) | check if the string required |
