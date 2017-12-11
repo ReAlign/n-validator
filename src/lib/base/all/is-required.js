@@ -1,9 +1,11 @@
 /**
  *  isRequired(val)
  */
+let _nt = require('n-tools');
+
 module.exports = ((_) => {
     _.isRequired = (val = '') => {
-        const _type = _.typeOf(val);
+        const _type = _nt.typeOf(val);
 
         let _len = 0;
 

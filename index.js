@@ -6,8 +6,6 @@ let _v = {};
 // base
 require('./src/lib/base/regexp-about/index')(_v);
 require('./src/lib/base/enum-about/index')(_v);
-require('./src/lib/base/type-about/type-of')(_v);
-require('./src/lib/base/object-about/object-compare')(_v);
 
 // base function
 require('./src/lib/base/all/is-required')(_v);

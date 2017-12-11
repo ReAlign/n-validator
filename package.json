@@ -1,6 +1,6 @@
 {
   "name": "n-validator",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "js type validate",
   "main": "index.js",
   "scripts": {
@@ -64,6 +64,6 @@
     "codecov": "^2.3.0",
     "jsdom": "^11.3.0",
     "localstorage-mocker": "^1.4.0",
-    "n-tools": "^0.0.2"
+    "n-tools": "^0.0.9"
   }
 }
