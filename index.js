@@ -19,7 +19,8 @@ require('./src/lib/number/is-int')(_v);
 require('./src/lib/number/is-float')(_v);
 
 // date
-require('./src/lib/date/is-date-str')(_v);
+require('./src/lib/date/is-date')(_v);
+require('./src/lib/date/is-date-time')(_v);
 
 // boolean
 require('./src/lib/boolean/is-boolean')(_v);
