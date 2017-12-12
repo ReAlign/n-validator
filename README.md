@@ -15,7 +15,7 @@
 
 | Method | Description |
 | --- | --- |
-| isInt(str, [, options]) | check if the string is an integer. |
+| isInt(str, [, options]) | check if the variable is an integer. |
 | isFloat(str, [, options]) | check if the string is a float. |
 | isDate(str, [, options]) | check if the string is a date. |
 | isDateTime(str, [, options]) | check if the string is a date time. |
