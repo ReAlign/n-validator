@@ -20,8 +20,8 @@
 | isDate(str, [, options]) | check if the string is a date string. |
 | isDateTime(str, [, options]) | check if the string is a date-time string. |
 | isBoolean(val, [, options]) | check if the variable is a boolean. |
-| isLength(str, [, options]) | check if the string's length falls in a range. [min, max] |
-| isRequired(str) | check if the string required |
+| isLength(str, [, options]) | check if the string's length falls in a range. ( [min, max] ) |
+| isRequired(str) | check if the variable required. |
 
 ## todo
 
