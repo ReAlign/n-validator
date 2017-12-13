@@ -3,6 +3,8 @@ const _ = require('./../../index');
 const str1 = 'str';
 const str2 = ' string';
 const str3 = 123;
+const str4 = '123';
+
 test('normalLength1', function() {
     expect(_.isLength(str1)).toBe(3);
 });
@@ -16,5 +18,17 @@ test('normalLength2', function() {
 });
 
 test('normalLength31', function() {
-    expect(_.isLength(str3, {min: 1, max: 4})).toBe(false);
+    expect(_.isLength(str3)).toBe(false);
+});
+
+test('normalLength4', function() {
+    expect(_.isLength(str4, {min: 1})).toBe(true);
+});
+
+test('normalLength41', function() {
+    expect(_.isLength(str4, {min: 1, max: 3})).toBe(true);
+});
+
+test('normalLength42', function() {
+    expect(_.isLength(str4, {min: 1, max: 2})).toBe(false);
 });
