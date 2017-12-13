@@ -1,6 +1,6 @@
 {
   "name": "n-validator",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "js type validate",
   "main": "index.js",
   "scripts": {
